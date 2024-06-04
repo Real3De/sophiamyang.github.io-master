@@ -1,0 +1,68 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+- file: intro
+
+- part: Data Science
+  chapters:
+  - file: DS/basics/basics
+    sections: 
+      - file: DS/basics/slides_github_pages
+      - file: DS/basics/testing_for_data_scientists/testing_for_data_scientists
+      - file: DS/basics/jupyterworkflow
+      - file: DS/basics/git
+      - file: DS/basics/conda
+      - file: DS/basics/profiling
+      - file: DS/basics/intro
+  - file: DS/dataaccess/dataaccess 
+    sections: 
+      - file: DS/dataaccess/metabase
+      - file: DS/dataaccess/stripe
+      - file: DS/dataaccess/salesforce
+      - file: DS/dataaccess/intake-salesforce/intake-salesforce
+      - file: DS/dataaccess/intercom 
+      - file: DS/dataaccess/marketo 
+      - file: DS/dataaccess/bigquery/bigquery 
+  - file: DS/etl/etl  
+    sections: 
+      - file: DS/etl/airflow_bigquery 
+  - file: DS/visualization/visualization
+    sections: 
+      - file: DS/visualization/holoviz/holoviz
+      - file: DS/visualization/real-time/realtimedash
+      - file: DS/visualization/landscape 
+      - file: DS/visualization/multiline
+  - file: DS/text/text
+    sections: 
+      - file: DS/text/text_basics
+      - file: DS/text/text_classification
+  - file: DS/timeseries/timeseries
+    sections:
+      - file: DS/timeseries/timeseries1
+      - file: DS/timeseries/timeseries2
+  - file: DS/survival/survival
+    sections: 
+      - file: DS/survival/survivalanalysis
+  - file: DS/machinelearning/machinelearning
+  - file: DS/deeplearning/deeplearning
+    sections: 
+      - file: DS/deeplearning/input_normalization
+      - file: DS/deeplearning/batch_normalization
+      - file: DS/deeplearning/weight_decay
+      - file: DS/deeplearning/data_augmentation
+  - file: DS/othermodels/othermodels
+    sections: 
+    - file: DS/othermodels/price_sensitivity
+    - file: DS/othermodels/clv
+  - file: DS/optimization/optimization
+    sections: 
+    - file: DS/optimization/descentmethod/descentmethod1
+    - file: DS/optimization/descentmethod/descentmethod2
+    - file: DS/optimization/multiclass-logistic/multiclass-logistic
+
+
+- part: random
+  sections:
+    - file: random/pypowerup
+    - file: markdown
+    - file: notebooks
+    - file: contact
